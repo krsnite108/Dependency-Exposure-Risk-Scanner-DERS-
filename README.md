@@ -4,7 +4,7 @@ A lightweight, developer-friendly tool for scanning Python project dependencies 
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 Modern Python projects often depend on dozens (sometimes hundreds) of libraries. Many of these dependencies may contain known vulnerabilities, and your application may be affected **even if the vulnerable package is not a direct dependency**.
 
@@ -26,18 +26,18 @@ This makes it ideal for:
 
 ---
 
-## ✨ Features
+##  Features
 
-* 🔄 Full transitive dependency graph resolution
-* 📦 Clean isolated temporary environment
-* 🌐 Online OSV.dev vulnerability scanning
-* 📝 Human-friendly security report
-* 🧩 Works with standard `requirements.txt`
-* 🚫 Gracefully skips incompatible dependencies (e.g., Python 3.13 issues)
+*  Full transitive dependency graph resolution
+*  Clean isolated temporary environment
+*  Online OSV.dev vulnerability scanning
+*  Human-friendly security report
+*  Works with standard `requirements.txt`
+*  Gracefully skips incompatible dependencies (e.g., Python 3.13 issues)
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 project/
@@ -62,7 +62,7 @@ project/
 
 ---
 
-## 🧠 How DERS Works (Architecture)
+##  How DERS Works (Architecture)
 
 ### **1️⃣ Build a clean temporary environment**
 
@@ -111,7 +111,7 @@ DERS prints a clean, readable report listing:
 
 ---
 
-## 📦 Installation
+##  Installation
 
 From project root:
 
@@ -123,7 +123,7 @@ Ensure that `pip.conf` inside the temp venv uses PyPI instead of custom enterpri
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 Run the scanner on any `requirements.txt`:
 
@@ -139,7 +139,7 @@ ders examples/requirements.txt --online
 
 ---
 
-## 📝 Example Output
+##  Example Output
 
 Example results from scanning Flask, Requests, Django:
 
