@@ -1,0 +1,18 @@
+{
+  "requests": [
+    {
+      "vulnerable": "<=2.19.0",
+      "fixed": "2.20.0",
+      "cve": "CVE-2018-18074",
+      "summary": "Improper certificate validation in redirects."
+    }
+  ],
+  "flask": [
+    {
+      "vulnerable": "<1.0",
+      "fixed": "1.0",
+      "cve": "CVE-2018-1000656",
+      "summary": "Information exposure in debug mode."
+    }
+  ]
+}
