@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ders"
+version = "0.1.0"
+description = "Dependency Exposure & Risk Scanner (DERS)"
+authors = [{ name = "Pratyush Krishna" }]
+readme = "readme.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+ders = "src_ders.cli:main"
+
+[tool.setuptools]
+packages = ["src_ders"]
+package-dir = { "src_ders" = "src_ders" }
